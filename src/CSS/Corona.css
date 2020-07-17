@@ -419,6 +419,8 @@ body {
           justify-content: center;
   color: white;
   text-shadow: 1px 1px 0px black;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
 }
 
 .death {
@@ -427,5 +429,20 @@ body {
 
 .confirmed {
   background-color: #fbd24a;
+}
+
+@media screen and (max-width: 800px) {
+  .valuesData {
+    font-size: 2vw;
+  }
+  .circle {
+    font-size: 2vw;
+    width: 15vh;
+    height: 15vh;
+  }
+  .ibdn {
+    width: 8vh;
+    height: 8vh;
+  }
 }
 /*# sourceMappingURL=Corona.css.map */
