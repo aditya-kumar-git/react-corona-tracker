@@ -1,1 +1,2 @@
-React Corona Teack, Teack how many people are suffring, recovered and died from corona
+## Visit the Website
+https://coronatrackerreact.netlify.app
